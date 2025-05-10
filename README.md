@@ -1,5 +1,7 @@
 # Frontend Mentor - Recipe page solution
 
+![Desktop Screenshot](./preview.jpg)
+
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
 ## Table of contents
@@ -8,7 +10,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
     - [Links](#links)
   - [Style Guide](#style-guide)
     - [Layout](#layout)
@@ -33,14 +34,10 @@ The challenge was to build a responsive recipe page that:
 - Matches the design provided in the preview images
 - Works well on both mobile and desktop screens
 
-### Screenshot
-
-![Desktop Screenshot](./preview.jpg)
-
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-html-and-css-with-accessibility-features-xyz)
-- Live Site URL: [GitHub Pages](https://yourusername.github.io/recipe-page/)
+- Solution URL: [Frontend Mentor Solution](https://github.com/JeromeMberia/Recipe-Page)
+- Live Site URL: [GitHub Pages](https://jeromemberia.github.io/Recipe-Page/)
 
 ## Style Guide
 
@@ -135,5 +132,5 @@ While working on this project, I learned several valuable techniques:
 
 ## Author
 
-Name - Jerome Mberia
-Frontend Mentor - @JeromeMberia
+- Name - [Jerome Mberia](https://github.com/JeromeMberia)
+- Frontend Mentor - [@JeromeMberia](https://www.frontendmentor.io/profile/JeromeMberia)
