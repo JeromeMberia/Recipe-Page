@@ -6,6 +6,74 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <meta name="description" content="A simple, delicious omelette recipe made with eggs, milk, and optional fillings. Perfect for beginners and ideal for breakfast, lunch, or dinner.">
   <meta name="keywords" content="omelette, recipe, cooking, breakfast, easy recipes">
+  <link rel="canonical" href="https://jeromemberia.github.io/Recipe-Page/" />
+  <!-- Prevents other sites from embedding your recipe page inside a hidden frame (Clickjacking protection) -->
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <!-- Instructs browsers not to guess the file types, protecting against malicious file uploads -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- Canonical URL to fix duplicate indexing -->
+  <link rel="canonical" href="https://github.io" />
+
+  <!-- Open Graph Meta Tags for beautiful social sharing -->
+  <meta property="og:title" content="Simple Omelette Recipe | Jerome Mberia">
+  <meta property="og:description" content="A simple, delicious omelette recipe made with eggs, milk, and optional fillings. Perfect for beginners.">
+  <meta property="og:image" content="https://jeromemberia.github.io/Recipe-Page/assets/images/image-omelette.jpeg">
+  <meta property="og:url" content="https://jeromemberia.github.io/Recipe-Page/">
+  <meta property="og:type" content="website">
+
+  <!-- Recipe Schema Markup to get rich snippets on Google Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Simple Omelette Recipe",
+    "image": [
+      "https://jeromemberia.github.io/Recipe-Page/assets/images/image-omelette.jpeg"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Jerome Mberia"
+    },
+    "datePublished": "2026-09-20",
+    "description": "A simple, delicious omelette recipe made with eggs, milk, and optional fillings. Perfect for beginners.",
+    "prepTime": "PT5M",
+    "cookTime": "PT5M",
+    "totalTime": "PT10M",
+    "recipeYield": "1 serving",
+    "recipeCategory": "Breakfast",
+    "recipeIngredients": [
+      "2-3 large eggs",
+      "Salt, to taste",
+      "Pepper, to taste",
+      "1 tablespoon of butter or oil",
+      "Optional fillings: cheese, diced vegetables, cooked meats, herbs"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Beat the eggs with a pinch of salt and pepper until well mixed."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Place a non-stick frying pan over medium heat and add butter or oil."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour in the eggs and tilt the pan to coat the surface evenly."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Sprinkle optional fillings over one half when the eggs begin to set."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Carefully fold one edge over the fillings and slide onto a plate."
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Recipe page</title>
 </head>
