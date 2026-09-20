@@ -1,28 +1,19 @@
-@font-face{
-    font-family:'Young Serif';
-    src:url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
-    font-weight:400;
+/* 1. The Young Serif font remains static */
+@font-face {
+    font-family: 'Young Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.woff2') format('woff2');
+    font-weight: 400;
     font-display: swap;
 }
 
-@font-face{
-    font-family:'Outfit';
-    src:url('./assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
-    font-weight:400;
+/* 2. Replace all 3 old Outfit blocks with this single Variable Font declaration */
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont.woff2') format('woff2-variations');
+    font-weight: 100 900; /* Enables all weights continuously from Thin to Black! */
     font-display: swap;
 }
-@font-face{
-    font-family:'Outfit';
-    src:url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
-    font-weight:600;
-    font-display: swap;
-}
-@font-face{
-    font-family:'Outfit';
-    src:url('./assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
-	font-weight:700;
-    font-display: swap;
-}
+
 :root {
     --white: hsl(0, 0%, 100%);
     --stone-100: hsl(30, 54%, 90%);
