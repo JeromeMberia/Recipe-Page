@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Link directly to your live sitemap to help engines find your single page faster
+Sitemap: https://jeromemberia.github.io/Recipe-Page/sitemap.xml
