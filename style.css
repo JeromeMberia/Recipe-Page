@@ -9,7 +9,7 @@
 /* 2. Replace all 3 old Outfit blocks with this single Variable Font declaration */
 @font-face {
     font-family: 'Outfit';
-    src: url('./assets/fonts/outfit/Outfit-VariableFont.woff2') format('woff2-variations');
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.woff2') format('woff2-variations');
     font-weight: 100 900; /* Enables all weights continuously from Thin to Black! */
     font-display: swap;
 }
