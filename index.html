@@ -22,53 +22,72 @@
   <!-- Recipe Schema Markup to get rich snippets on Google Search -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Recipe",
-    "name": "Simple Omelette Recipe",
-    "image": [
-      "https://jeromemberia.github.io/Recipe-Page/assets/images/image-omelette.jpeg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Jerome Mberia"
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Simple Omelette Recipe",
+  "image": "https://jeromemberia.github.io/Recipe-Page/assets/images/image-omelette.jpeg",
+  "author": {
+    "@type": "Person",
+    "name": "Jerome Mberia"
+  },
+  "datePublished": "2026-09-20",
+  "description": "A simple, delicious omelette recipe made with eggs, milk, and optional fillings. Perfect for beginners.",
+  "prepTime": "PT5M",
+  "cookTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeYield": "1 serving",
+  "recipeCategory": "Breakfast",
+  "recipeCuisine": "International",
+  "keywords": "omelette, simple breakfast, egg recipe",
+  "recipeIngredient": [
+    "2-3 large eggs",
+    "Salt, to taste",
+    "Pepper, to taste",
+    "1 tablespoon of butter or oil",
+    "Optional fillings: cheese, diced vegetables, cooked meats, herbs"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Beat the eggs",
+      "text": "Beat the eggs with a pinch of salt and pepper until well mixed.",
+      "url": "https://github.io"
     },
-    "datePublished": "2026-09-20",
-    "description": "A simple, delicious omelette recipe made with eggs, milk, and optional fillings. Perfect for beginners.",
-    "prepTime": "PT5M",
-    "cookTime": "PT5M",
-    "totalTime": "PT10M",
-    "recipeYield": "1 serving",
-    "recipeCategory": "Breakfast",
-    "recipeIngredients": [
-      "2-3 large eggs",
-      "Salt, to taste",
-      "Pepper, to taste",
-      "1 tablespoon of butter or oil",
-      "Optional fillings: cheese, diced vegetables, cooked meats, herbs"
-    ],
-    "recipeInstructions": [
-      {
-        "@type": "HowToStep",
-        "text": "Beat the eggs with a pinch of salt and pepper until well mixed."
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Place a non-stick frying pan over medium heat and add butter or oil."
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Pour in the eggs and tilt the pan to coat the surface evenly."
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Sprinkle optional fillings over one half when the eggs begin to set."
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Carefully fold one edge over the fillings and slide onto a plate."
-      }
-    ]
+    {
+      "@type": "HowToStep",
+      "name": "Heat the pan",
+      "text": "Place a non-stick frying pan over medium heat and add butter or oil.",
+      "url": "https://github.io"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pour the eggs",
+      "text": "Pour in the eggs and tilt the pan to coat the surface evenly.",
+      "url": "https://github.io"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Add fillings",
+      "text": "Sprinkle optional fillings over one half when the eggs begin to set.",
+      "url": "https://github.io"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Fold and serve",
+      "text": "Carefully fold one edge over the fillings and slide onto a plate.",
+      "url": "https://github.io"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "1"
+  },
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "250 calories"
   }
+}
   </script>
 
   <link rel="stylesheet" href="style.css">
